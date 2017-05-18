@@ -12,11 +12,8 @@ public class Exercise4 {
 }
 
 abstract class Parent{
-	
+	int b = 8;
 	abstract void print();
-	{
-		System.out.println("Parent abstract class");
-	}
 	
 	Parent(){
 		print();
@@ -25,7 +22,6 @@ abstract class Parent{
 
 class Child extends Parent{
 	int a = 6;
-	
 	 void print() {
 		 System.out.println("Child class"+ a);
 	  }
