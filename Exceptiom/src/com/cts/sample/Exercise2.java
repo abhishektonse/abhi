@@ -40,9 +40,9 @@ public class Exercise2 {
 class TextFile1 {
 	String ab1[];
 	public void load() throws IOException {
-		Path file = Paths.get("D:/datafiles/textfiles");
+		Path file = Paths.get("datafiles/textfiles");
 		Files.createDirectories(file);
-		Path abspath = Paths.get("D:/datafiles/textfiles", "abhi3.txt");
+		Path abspath = Paths.get("datafiles/textfiles", "abhi3.txt");
 		BufferedWriter br=Files.newBufferedWriter(abspath, CREATE);
 		String para="1 2 4 6 3 7 4 3 7";
 		br.write(para,0,para.length());
