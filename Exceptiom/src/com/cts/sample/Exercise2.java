@@ -27,11 +27,14 @@ public class Exercise2 {
 		   text.load();
 		   for (int i=0;i<text.ab1.length;i++){
 				int val = Integer.parseInt(text.ab1[i]);
+				int size;
 				list.add(list.size()/2,val);
 			}
 		    ListIterator<Integer> litr = list.listIterator();
 			while(litr.hasNext()){
 				 System.out.println(litr.next());
+				 
+				 
 	}
 
 	}
