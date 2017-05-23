@@ -12,20 +12,22 @@ public class Exercise8 {
 		AddCountry2.name(l1);
     	AddCountry2.name(l2);
 
+		System.out.println("arraylist=  " + l1);
+		System.out.println("linked list= " + l2);
 		ListIterator i = l1.listIterator();
 		int k= l1.size();
 		for (int j = (l1.size()-1); j>=0 ;j--)
 		{
 			
-			System.out.println(j);
+			
 			l2.add(k, l1.get(j));
 			k = k+1;
 	        
 		}
 		
 		
-		System.out.println("arraylist=  " + l1);
-		System.out.println("linked list= " + l2);
+		
+		System.out.println(" After linked list= " + l2);
 
 	}
 
