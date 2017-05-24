@@ -36,6 +36,7 @@ static class TextFile5 {
 		while((s=rd.readLine())!=null){
 			ab1 = s.split("");	
 		
+			
 		}		
 		return ab1;
 
