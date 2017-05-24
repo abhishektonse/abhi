@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class Exercise9 {
+public class Exercise5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -49,15 +49,12 @@ static class Mappy{
 	 Map<String,Integer> occ = new HashMap<String,Integer>();
      try {
 		TextFile5.load();
-		
+	
       for (String c : TextFile5.ab1)
       {
           if(occ.containsKey(c))
           { 
-        	  if (c == " ") 		
-        		 occ.put(c, occ.get(c)+1);
-        	  else
-                 occ.put(c, occ.get(c)+1);
+              occ.put(c, occ.get(c)+1);
         		  
           }
           else
